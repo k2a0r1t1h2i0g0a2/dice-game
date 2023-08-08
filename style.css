@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#diceImage {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+h4 {
+    color: rgb(18, 151, 18);
+    font-size: large;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+#turnMessage {
+    text-align: center;
+    padding-top: 30px;
+    font-size: xx-large;
+}
+
+#winnerMessage {
+    text-align: center;
+    text-decoration: wavy;
+    color: rgb(201, 31, 65);
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+button.rollbtn {
+    background-color: rgb(20, 116, 20);
+    color: white;
+    font-size: medium;
+    border-color:greenyellow;
+    border-width: 4px;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#resetBtn {
+    background-color: rgb(240, 99, 123);
+    font-weight: bolder;
+    border-color:rgb(142, 32, 32);
+    color: black;
+    margin-left: 590px;
+    margin-top: 50px;
+    border-width: 4px;
+}
+
+#resetBtn {
+    display: block;
+    margin: 20px auto;
+}
+
+.score {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
